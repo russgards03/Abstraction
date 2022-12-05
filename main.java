@@ -7,7 +7,7 @@ public class Main extends ValuesResult{
 
     public static void main(String[] args) {
         // Frame and Panel
-        JFrame frame = new JFrame("My UI Frame");
+        JFrame frame = new JFrame("Garde's UI Frame");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JPanel panelTitle = new JPanel(new FlowLayout());
         JPanel panelOne = new JPanel(new GridLayout(2,2,1,1));
@@ -16,7 +16,7 @@ public class Main extends ValuesResult{
 
         // Setting the panel sizes
         panelTitle.setBounds(10,10,380,50);
-        panelOne.setBounds(10,60,380,140);
+        panelOne.setBounds(10,60,380,100);
         panelTwo.setBounds(10,200,380,40);
 
         // Color for visualization only
@@ -32,7 +32,7 @@ public class Main extends ValuesResult{
         tFieldTwo = new JTextField(20);
         tFieldTwo.setPreferredSize(new Dimension(80,20));
 
-        labelTitle = new JLabel("Welcome to the multiplication table!", JLabel.CENTER);
+        labelTitle = new JLabel("Welcome to the multiplication calculator!", JLabel.CENTER);
         labelOne = new JLabel("Enter the first number: ");
         labelTwo = new JLabel("Enter the second number: ");
 
